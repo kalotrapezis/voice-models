@@ -15,5 +15,14 @@
 
 Η μετάφραση υπάρχει ήδη μέσα στα πακέτα του VOICE· εδώ είναι για όσους χτίζουν την εφαρμογή από τον κώδικα.
 
-Τα μοντέλα ανήκουν στους δημιουργούς τους και διανέμονται με τις άδειές τους, χωρίς αλλαγές πέρα από την κβάντιση
-(Whisper) και τη μετατροπή σε ONNX (MMS).
+## Άδειες και αναφορές
+
+Τα μοντέλα ανήκουν στους δημιουργούς τους και διανέμονται εδώ με τις άδειές τους:
+
+- **Meta MMS-TTS (ελληνικά)**: © Meta AI, [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+  **Μόνο για μη εμπορική χρήση.** Αλλαγή: μετατροπή σε ONNX, χωρίς αλλαγή στα βάρη. Δημοσίευση: V. Pratap κ.ά.,
+  *Scaling Speech Technology to 1,000+ Languages*, 2023, [arXiv:2305.13516](https://arxiv.org/abs/2305.13516).
+- **Whisper**: © 2022 OpenAI, MIT ([`licenses/whisper-MIT.txt`](licenses/whisper-MIT.txt)). Αλλαγή: κβάντιση q8_0 με
+  το whisper.cpp.
+- **Μοντέλα μετάφρασης του Firefox**: © Mozilla, MPL 2.0 ([`licenses/MPL-2.0.txt`](licenses/MPL-2.0.txt)). Χωρίς
+  αλλαγές (μόνο αποσυμπίεση). Η πηγή τους: [mozilla/translations](https://github.com/mozilla/translations).
